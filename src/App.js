@@ -75,7 +75,7 @@ class App extends Component {
 
   onSubmit = () => {
     this.setState({imageUrl: this.state.input})
-          fetch('https://limitless-tor-21666.herokuapp.com/imageUrl', {
+          fetch('https://limitless-tor-21666.herokuapp.com/imageurl', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
