@@ -8,6 +8,7 @@ const Rank = ({name, entries}) => {
         <div className='white f1'>
           {entries}
         </div>
+        <p>Face App will detect the faces in each picture submitted. Try it!!</p>
       </div>
     </div>
   );
