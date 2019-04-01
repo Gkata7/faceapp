@@ -82,7 +82,7 @@ class App extends Component {
               input: this.state.input,
           })
         })
-        .then(response => response.json)
+        .then(response => response.json())
         .then(response => {
           if(response){
             fetch('https://limitless-tor-21666.herokuapp.com/image', {
